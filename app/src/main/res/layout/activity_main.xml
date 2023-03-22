@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resultado"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:layout_below="@id/numero2"/>
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/escribe_un_numero"
+        android:inputType="number"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/escribe_numero_2"
+        android:inputType="number"
+        android:layout_below="@id/numero1"
+        android:layout_weight="1"
+        />
+
+            <Button
+                android:id="@+id/button_suma"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/sumar"
+                android:layout_below="@id/button_resta"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/button_resta"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/resta"
+                android:layout_below="@id/resultado"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                />
+
+            <Button
+                android:id="@+id/button_division"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+               android:hint="@string/divicion"
+                android:layout_below="@id/button_multiplicacion"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/button_multiplicacion"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/multiplicacion"
+                android:layout_below="@id/resultado"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"/>
+
+
+
+
+
+
+</RelativeLayout>

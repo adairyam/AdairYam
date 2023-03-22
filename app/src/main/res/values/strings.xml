@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AdairYam</string>
+    <string name="dame_numero_1">dame numero 1</string>
+    <string name="dame_numero_2">dame numero 2</string>
+    <string name="sumar">SUMAR</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+    <string name="resultado">resultado</string>
+    <string name="escribe_numero_2">Escribe numero 2</string>
+    <string name="resta">RESTA</string>
+    <string name="multiplicacion">multiplicacion</string>
+    <string name="divicion">Divicion</string>
+    <string name="escribe_un_numero">Escribe un numero</string>
+</resources>
